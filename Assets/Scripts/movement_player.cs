@@ -5,9 +5,12 @@ using UnityEngine;
 public class movement_player : MonoBehaviour
 {
     //variable
-    private float speed = 5f;
+    [SerializeField] public float speed;
     public float x;
     public float z;
+    [SerializeField] private float speed_jump = 2f;
+    [SerializeField] private float speed_walk = 2f;
+    [SerializeField] private float speed_run = 8f;
     [SerializeField] private float gravitasi = -9.81f;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundDistance = 0.4f;
@@ -28,6 +31,8 @@ public class movement_player : MonoBehaviour
     {
         gravity();
         move();
+        jump();
+        walking();
     }
 
     private void move()
@@ -47,8 +52,28 @@ public class movement_player : MonoBehaviour
             velocity.y = -2f;
         }
 
+    }
+
+    private void jump()
+    {
+        if (Input.GetButton("Jump") && isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(speed_jump * -2f * gravitasi);
+        }
+
         velocity.y += gravitasi * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+    }
 
+    private void walking()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = speed_run;
+        }
+        else
+        {
+            speed = speed_walk;
+        }
     }
 }
