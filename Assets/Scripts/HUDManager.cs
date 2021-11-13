@@ -9,6 +9,9 @@ public class HUDManager : MonoBehaviour
     private GameObject player;
     public Text time;
 
+    [SerializeField] GameObject pauseMenu;
+    private bool GameIsPaused = false;
+
     private float energy = 200;
     private float maxEnergy = 200;
     private float kecepatan;
@@ -31,6 +34,7 @@ public class HUDManager : MonoBehaviour
         EnergyDrain();
         UpdateEnergy();
         UpdateTime();
+        ShowPauseMenu();
     }
 
     private void EnergyDrain()
@@ -85,5 +89,36 @@ public class HUDManager : MonoBehaviour
         }
 
         time.text = gameHours.ToString() + " : " + gameMinutes.ToString();
+    }
+
+    private void ShowPauseMenu()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (GameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        }
+    }
+
+    void Resume()
+    {
+        pauseMenu.SetActive(false);
+        GameIsPaused = false;
+        Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    void Pause()
+    {
+        pauseMenu.SetActive(true);
+        GameIsPaused = true;
+        Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 }
