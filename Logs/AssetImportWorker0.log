@@ -15,11 +15,11 @@ D:/Kuliah/Semester 7/Pemrograman Game/Praktikum/Praktikum Pemrograman Game/Prakt
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61196
+58890
 Successfully changed project path to: D:/Kuliah/Semester 7/Pemrograman Game/Praktikum/Praktikum Pemrograman Game/Praktikum-pemgame
 D:/Kuliah/Semester 7/Pemrograman Game/Praktikum/Praktikum Pemrograman Game/Praktikum-pemgame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 144.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -37,39 +37,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003072 seconds.
+Registered in 0.003268 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 82.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.192 seconds
+- Completed reload, in  1.843 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011579 seconds.
+Registered in 0.111477 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.362 seconds
+- Completed reload, in  1.113 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 158.2 MB.
-System memory in use after: 157.9 MB.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.5 MB.
+System memory in use after: 160.2 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2279.
-Total: 4.207000 ms (FindLiveObjects: 0.527000 ms CreateObjectMapping: 0.214700 ms MarkObjects: 2.957700 ms  DeleteObjects: 0.503300 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 3.774100 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.697100 ms  DeleteObjects: 0.747700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -84,508 +84,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs
-  artifactKey: Guid(9d810358c5b2a98449c3088781a0f2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(9d810358c5b2a98449c3088781a0f2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fa10282f334820b4fbb186aba92bb7') in 0.014065 seconds 
-  Import took 0.018554 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004330 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.229 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.0 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2282.
-Total: 2.500400 ms (FindLiveObjects: 0.160200 ms CreateObjectMapping: 0.085600 ms MarkObjects: 1.685800 ms  DeleteObjects: 0.567300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 183.230180 seconds.
-  path: Assets/Prefabs/Village & Terrain.prefab
-  artifactKey: Guid(27c6ee1b40ca8e049a472edbe15a9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Village & Terrain.prefab using Guid(27c6ee1b40ca8e049a472edbe15a9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd4bdb4ceca923761654f4acb620114') in 1.597502 seconds 
-  Import took 1.656770 seconds .
+  path: Assets/Scripts/HUDManager.cs
+  artifactKey: Guid(a19bd3c1f612a8448815ce34771ed6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUDManager.cs using Guid(a19bd3c1f612a8448815ce34771ed6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b545986dc21dd59baad0511fde2e7651') in 0.049557 seconds 
+  Import took 0.057431 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 100.512728 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.013987 seconds 
-  Import took 0.024841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057150 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.005506 seconds 
-  Import took 0.011485 seconds .
+  Time since last request: 15.002145 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(dadd4d4074e427143ac2ba7bf1d888fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(dadd4d4074e427143ac2ba7bf1d888fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d364d05a5e1b4d9a62ea179d54d07ad') in 0.042790 seconds 
+  Import took 0.134421 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003461 seconds.
+Registered in 0.009136 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.296 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2293.
-Total: 3.375300 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.342200 ms  DeleteObjects: 0.586300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005056 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.455 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2296.
-Total: 3.732900 ms (FindLiveObjects: 0.355400 ms CreateObjectMapping: 0.168900 ms MarkObjects: 2.686400 ms  DeleteObjects: 0.519300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009922 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.295 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2299.
-Total: 5.366000 ms (FindLiveObjects: 0.673500 ms CreateObjectMapping: 0.198400 ms MarkObjects: 3.540100 ms  DeleteObjects: 0.949300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003888 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.215 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2302.
-Total: 4.845300 ms (FindLiveObjects: 0.708500 ms CreateObjectMapping: 0.198000 ms MarkObjects: 3.445000 ms  DeleteObjects: 0.491400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002762 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.202 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2305.
-Total: 2.240700 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.055200 ms MarkObjects: 1.556600 ms  DeleteObjects: 0.474900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4135.633276 seconds.
-  path: Assets/Animation/CameraStart.anim
-  artifactKey: Guid(3bd0301da70ad4146a7b5e83db871282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/CameraStart.anim using Guid(3bd0301da70ad4146a7b5e83db871282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cf002aa1f959b7c469522abc6bc83f') in 0.863903 seconds 
-  Import took 0.872484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.730255 seconds.
-  path: Assets/Animation/CameraStart.anim
-  artifactKey: Guid(3bd0301da70ad4146a7b5e83db871282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/CameraStart.anim using Guid(3bd0301da70ad4146a7b5e83db871282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfd5e58e6ac5f7c509aa5271461d47f') in 0.011476 seconds 
-  Import took 0.017973 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004489 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.217 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2308.
-Total: 2.187000 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.521700 ms  DeleteObjects: 0.462000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 540.389900 seconds.
-  path: Assets/menuost.mp3
-  artifactKey: Guid(4a0c18d420ec38d45a0ae73b81039e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menuost.mp3 using Guid(4a0c18d420ec38d45a0ae73b81039e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52bc681cf46c9100bac2c997d6c59a5') in 0.219572 seconds 
-  Import took 0.251507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.693349 seconds.
-  path: Assets/Sound
-  artifactKey: Guid(9d784cf63fa50004493b02a695b1b81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound using Guid(9d784cf63fa50004493b02a695b1b81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0536dac242d0a1370b85f7153e5c64b3') in 0.008909 seconds 
-  Import took 0.014100 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002518 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.4 MB.
-System memory in use after: 159.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2314.
-Total: 4.066600 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.139800 ms MarkObjects: 2.908200 ms  DeleteObjects: 0.635500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 183.453293 seconds.
-  path: Assets/Scripts/SceneLoader.cs
-  artifactKey: Guid(7da9350dd692559468b131616c7a5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneLoader.cs using Guid(7da9350dd692559468b131616c7a5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceac81dfc1cb9bfaa614f54e3bc9442') in 0.019555 seconds 
-  Import took 0.026419 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003453 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.286 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2318.
-Total: 19.261600 ms (FindLiveObjects: 0.784400 ms CreateObjectMapping: 0.194500 ms MarkObjects: 17.439500 ms  DeleteObjects: 0.840800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.245566 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.925 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2321.
-Total: 4.039300 ms (FindLiveObjects: 0.381400 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.960600 ms  DeleteObjects: 0.584400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1127.265951 seconds.
-  path: Assets/Scripts/SceneLoader.cs
-  artifactKey: Guid(7da9350dd692559468b131616c7a5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneLoader.cs using Guid(7da9350dd692559468b131616c7a5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47db0175444157c2a50a8c171f53a20') in 0.015454 seconds 
-  Import took 0.024660 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010986 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.872 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2324.
-Total: 3.129100 ms (FindLiveObjects: 0.223100 ms CreateObjectMapping: 0.074200 ms MarkObjects: 2.052300 ms  DeleteObjects: 0.777300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 329.177149 seconds.
-  path: Assets/Scripts/SceneLoader.cs
-  artifactKey: Guid(7da9350dd692559468b131616c7a5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneLoader.cs using Guid(7da9350dd692559468b131616c7a5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1113891d23139f50c0041227a1c815c') in 0.005505 seconds 
-  Import took 0.010833 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004264 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.160 seconds
+- Completed reload, in  1.590 seconds
 Platform modules already initialized, skipping
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.2 MB.
+Unloading 1717 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 152.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 3.026200 ms (FindLiveObjects: 0.682300 ms CreateObjectMapping: 0.138800 ms MarkObjects: 1.686600 ms  DeleteObjects: 0.516500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.034925 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.358 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2330.
-Total: 5.245800 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.128500 ms MarkObjects: 3.705000 ms  DeleteObjects: 1.038100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 3.948800 ms (FindLiveObjects: 0.234600 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.793800 ms  DeleteObjects: 0.837500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -600,49 +132,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6206.373891 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0909be1711df996bc4db0a2df12123') in 1.752542 seconds 
-  Import took 1.759483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.206950 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(b167d4a23dcdc034c9dd92a9eea7ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(b167d4a23dcdc034c9dd92a9eea7ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e392fc87c5d8b3d88468db9e8fbaddb9') in 0.020328 seconds 
-  Import took 0.028133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044740 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(b167d4a23dcdc034c9dd92a9eea7ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(b167d4a23dcdc034c9dd92a9eea7ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e392fc87c5d8b3d88468db9e8fbaddb9') in 0.005792 seconds 
-  Import took 0.015070 seconds .
+  Time since last request: 13.761708 seconds.
+  path: Assets/Scripts/PlayerData.cs
+  artifactKey: Guid(5f2e24b9b16f8494aa4bd6104356d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerData.cs using Guid(5f2e24b9b16f8494aa4bd6104356d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a21c8daee8131ad096911bc3a2b304e') in 0.156547 seconds 
+  Import took 0.165170 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002677 seconds.
+Registered in 0.012189 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.446 seconds
+- Completed reload, in  1.239 seconds
 Platform modules already initialized, skipping
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.3 MB.
+Unloading 1718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 152.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2333.
-Total: 2.373400 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.051600 ms MarkObjects: 1.694300 ms  DeleteObjects: 0.475900 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 4.811800 ms (FindLiveObjects: 0.368600 ms CreateObjectMapping: 0.402200 ms MarkObjects: 3.467400 ms  DeleteObjects: 0.570800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -657,74 +173,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 237.796181 seconds.
-  path: Assets/Prefabs/NewButton.prefab
-  artifactKey: Guid(dec6dab4cef4c1d4cbb206f936f9ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NewButton.prefab using Guid(dec6dab4cef4c1d4cbb206f936f9ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9d51ca7e1e308b4a090f24bd639466') in 0.192432 seconds 
-  Import took 0.199933 seconds .
+  Time since last request: 16.700092 seconds.
+  path: Assets/Scripts/SaveSystem.cs
+  artifactKey: Guid(4103c040c1b44bd44bde77fbf65116aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SaveSystem.cs using Guid(4103c040c1b44bd44bde77fbf65116aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f24725338a2a31b2e0cf55f28d46eed') in 0.068383 seconds 
+  Import took 0.186454 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002825 seconds.
+Registered in 0.003217 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
+- Completed reload, in  2.743 seconds
 Platform modules already initialized, skipping
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.3 MB.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 152.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2336.
-Total: 3.568700 ms (FindLiveObjects: 0.370700 ms CreateObjectMapping: 0.114500 ms MarkObjects: 2.502900 ms  DeleteObjects: 0.578200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 201.145126 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff49d8403c2fcdf18bec26c743dd65dc') in 0.087900 seconds 
-  Import took 0.093035 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008255 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.341 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2339.
-Total: 3.464300 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.067100 ms MarkObjects: 2.595000 ms  DeleteObjects: 0.566300 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 3.713000 ms (FindLiveObjects: 0.145000 ms CreateObjectMapping: 0.054000 ms MarkObjects: 2.511500 ms  DeleteObjects: 1.000600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -740,24 +215,24 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004670 seconds.
+Registered in 0.002830 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.277 seconds
+- Completed reload, in  3.155 seconds
 Platform modules already initialized, skipping
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.3 MB.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.4 MB.
+System memory in use after: 152.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2342.
-Total: 3.668400 ms (FindLiveObjects: 0.168900 ms CreateObjectMapping: 0.051700 ms MarkObjects: 1.680000 ms  DeleteObjects: 1.766000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 2.591300 ms (FindLiveObjects: 0.372000 ms CreateObjectMapping: 0.142200 ms MarkObjects: 1.559700 ms  DeleteObjects: 0.515500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -773,123 +248,24 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.409 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2345.
-Total: 5.206100 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.208900 ms MarkObjects: 3.672300 ms  DeleteObjects: 1.062600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006392 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.541 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2348.
-Total: 7.673000 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.075200 ms MarkObjects: 4.827800 ms  DeleteObjects: 2.578000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014852 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.895 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 5.042100 ms (FindLiveObjects: 0.447800 ms CreateObjectMapping: 0.196500 ms MarkObjects: 3.448800 ms  DeleteObjects: 0.942800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012153 seconds.
+Registered in 0.002606 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.219 seconds
+- Completed reload, in  1.428 seconds
 Platform modules already initialized, skipping
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.3 MB.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.4 MB.
+System memory in use after: 152.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2354.
-Total: 3.886200 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.084800 ms MarkObjects: 2.924900 ms  DeleteObjects: 0.609300 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 3.456200 ms (FindLiveObjects: 0.277400 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.411400 ms  DeleteObjects: 0.674800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -904,99 +280,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 975.514137 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f51a31f7719064b59ee3d9c5d2485a') in 0.378163 seconds 
-  Import took 0.399566 seconds .
+  Time since last request: 339.484980 seconds.
+  path: Assets/Scripts/PlayerData.cs
+  artifactKey: Guid(5f2e24b9b16f8494aa4bd6104356d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerData.cs using Guid(5f2e24b9b16f8494aa4bd6104356d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd59c547a3eb5fcec00230994b475b2') in 0.013104 seconds 
+  Import took 0.020213 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005320 seconds.
+Registered in 0.002855 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.379 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2357.
-Total: 3.645000 ms (FindLiveObjects: 0.225800 ms CreateObjectMapping: 0.069700 ms MarkObjects: 2.455400 ms  DeleteObjects: 0.892100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003854 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.413 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2360.
-Total: 3.908300 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.905800 ms  DeleteObjects: 0.670600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.034517 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.840 seconds
+- Completed reload, in  1.395 seconds
 Platform modules already initialized, skipping
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.6 MB.
-System memory in use after: 159.3 MB.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.4 MB.
+System memory in use after: 152.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2363.
-Total: 7.229700 ms (FindLiveObjects: 0.394300 ms CreateObjectMapping: 0.093300 ms MarkObjects: 5.588700 ms  DeleteObjects: 1.149200 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 3.919400 ms (FindLiveObjects: 0.262900 ms CreateObjectMapping: 0.080500 ms MarkObjects: 1.942800 ms  DeleteObjects: 1.630800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1009,3 +319,877 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 589.804431 seconds.
+  path: Assets/Scripts/SaveSystem.cs
+  artifactKey: Guid(4103c040c1b44bd44bde77fbf65116aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SaveSystem.cs using Guid(4103c040c1b44bd44bde77fbf65116aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a857cc0937fa69326a9ca3550ba417b') in 0.014094 seconds 
+  Import took 0.019133 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013611 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.926 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.4 MB.
+System memory in use after: 152.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 3.876400 ms (FindLiveObjects: 0.139900 ms CreateObjectMapping: 0.069400 ms MarkObjects: 2.381600 ms  DeleteObjects: 1.283700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 197.907254 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(dadd4d4074e427143ac2ba7bf1d888fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(dadd4d4074e427143ac2ba7bf1d888fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8023294758a9b0ea92b420071a6fc9fa') in 0.012941 seconds 
+  Import took 0.018624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.002629 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/1.fbx
+  artifactKey: Guid(e44e5b3a888b33243837bb64d3b59056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/1.fbx using Guid(e44e5b3a888b33243837bb64d3b59056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be47114f524c7c93131c013c7903aa4d') in 0.920112 seconds 
+  Import took 0.924750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing Shed Extensions 1.fbx
+  artifactKey: Guid(f7a14a321eebc244f9631c9b74579adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing Shed Extensions 1.fbx using Guid(f7a14a321eebc244f9631c9b74579adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4866e6223311a04b98572961174bffb7') in 0.203362 seconds 
+  Import took 0.206971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Gatehouses, Bridges, Walls/Wide/Archway 2.prefab
+  artifactKey: Guid(066e2d3dd8df8844d853ecc68726292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Gatehouses, Bridges, Walls/Wide/Archway 2.prefab using Guid(066e2d3dd8df8844d853ecc68726292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec244ee1a0ec0728b189497c085ec1ff') in 0.110029 seconds 
+  Import took 0.119821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4BC.fbx
+  artifactKey: Guid(ae1f3001c22e1474ca0462c198bd0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4BC.fbx using Guid(ae1f3001c22e1474ca0462c198bd0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34680cf69bbad8f3439526142d79876') in 0.228256 seconds 
+  Import took 0.235585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/8 VR_Low.asset
+  artifactKey: Guid(004a8fe2b55475a49a656741a4d34eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/8 VR_Low.asset using Guid(004a8fe2b55475a49a656741a4d34eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998f8379abe6a89dbecff7e2c3e29e5a') in 0.009880 seconds 
+  Import took 0.018094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Base Extensions 1A.fbx
+  artifactKey: Guid(740b68158fdbc6d46b1ce1ff6981c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Base Extensions 1A.fbx using Guid(740b68158fdbc6d46b1ce1ff6981c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cb2797767b7fb160943fa2421a983d') in 0.280892 seconds 
+  Import took 0.287207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Wood Furnishing 2.fbx
+  artifactKey: Guid(bd65d60d5448f964490797fb0da8efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Wood Furnishing 2.fbx using Guid(bd65d60d5448f964490797fb0da8efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e17fe480456e446bf8d0ae6148aaeaf') in 0.161718 seconds 
+  Import took 0.166008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Advanced Housing 1.mat
+  artifactKey: Guid(8608cf83edbe0d14c982975dd2e4e137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Advanced Housing 1.mat using Guid(8608cf83edbe0d14c982975dd2e4e137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6905fd6107dbd0609bc7457b486c15') in 0.166902 seconds 
+  Import took 0.175244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Bark_1A1.mat
+  artifactKey: Guid(a2e0e38cbb781b548863c4766664c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Bark_1A1.mat using Guid(a2e0e38cbb781b548863c4766664c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbe30f67bf33c3dab19cf242515a958') in 0.075505 seconds 
+  Import took 0.084328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Adult Bed 1.fbx
+  artifactKey: Guid(628ea1dde337d664b8a6b331786785b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Adult Bed 1.fbx using Guid(628ea1dde337d664b8a6b331786785b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3886625d81f8c51647a506b20d5b9a80') in 0.180117 seconds 
+  Import took 0.185580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Basic Rocks 1.fbx
+  artifactKey: Guid(9aa57f7897c8dc54a920fa85520cafb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Basic Rocks 1.fbx using Guid(9aa57f7897c8dc54a920fa85520cafb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd88f84dc13d9964d75eb33747759b0') in 0.155066 seconds 
+  Import took 0.160625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4C2.fbx
+  artifactKey: Guid(0ebbac71e38be304e8b77b6bd941ea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4C2.fbx using Guid(0ebbac71e38be304e8b77b6bd941ea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2b6ebee5669efec16af233d2b0995c') in 0.087355 seconds 
+  Import took 0.094754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant Extension 1B.prefab
+  artifactKey: Guid(00fa7d034a149e142b83f81fb6d067d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant Extension 1B.prefab using Guid(00fa7d034a149e142b83f81fb6d067d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efece63ffbaeb76072a93688c20b6b40') in 0.139215 seconds 
+  Import took 0.160449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/9 VR_Medium.asset
+  artifactKey: Guid(ecdd5bc980eef614fb9a2325ec2c21fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/9 VR_Medium.asset using Guid(ecdd5bc980eef614fb9a2325ec2c21fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad72dc4ba0e578fa12c520a558ed2a1') in 0.016667 seconds 
+  Import took 0.022928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrels and Crates B.fbx
+  artifactKey: Guid(90c823ce553df5a48b5000cd7940202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrels and Crates B.fbx using Guid(90c823ce553df5a48b5000cd7940202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fd268549f771002413dd5305ed2faa') in 0.200131 seconds 
+  Import took 0.207962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1A Modular (Fix 1).fbx
+  artifactKey: Guid(beddada3026a1614da1f44c54b8b6cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1A Modular (Fix 1).fbx using Guid(beddada3026a1614da1f44c54b8b6cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092ba2d368ca9bf3c490c7c23f482e03') in 0.097702 seconds 
+  Import took 0.102808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 1.fbx
+  artifactKey: Guid(6b85cb75bcf6bdc41a464935b8b92e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 1.fbx using Guid(6b85cb75bcf6bdc41a464935b8b92e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873e8ee6ed9d96a2226165ba960ef2fb') in 0.150167 seconds 
+  Import took 0.157210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1C Modular.fbx
+  artifactKey: Guid(d30842d5747c2eb4f816bf79e58ee854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1C Modular.fbx using Guid(d30842d5747c2eb4f816bf79e58ee854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d2c27f2a9cef0397d568312a9e67ca') in 0.136135 seconds 
+  Import took 0.139814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/6 Insane.asset
+  artifactKey: Guid(88e3b239fe167354abe43a2af25e545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/6 Insane.asset using Guid(88e3b239fe167354abe43a2af25e545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b151de5b377ce842e2ff3a556bc55ea1') in 0.014819 seconds 
+  Import took 0.023444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Grass And Flowers Pack 1/Example Scene/BlackMat.mat
+  artifactKey: Guid(d9c07eda3dceab04db68ebf814681197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Example Scene/BlackMat.mat using Guid(d9c07eda3dceab04db68ebf814681197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568388f45fa59d1ae5b7adcd2d1c0470') in 0.055880 seconds 
+  Import took 0.067532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Extension 1B.prefab
+  artifactKey: Guid(ed31d3f4d1f15da4a836697b216dede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Extension 1B.prefab using Guid(ed31d3f4d1f15da4a836697b216dede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd53de134a8c20d79c6150321907f23') in 0.072182 seconds 
+  Import took 0.081704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant Extension 1A.prefab
+  artifactKey: Guid(515c06268bf447a44b441f47bb568ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant Extension 1A.prefab using Guid(515c06268bf447a44b441f47bb568ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6050262533ecabccf46d9af19d5f1520') in 0.044673 seconds 
+  Import took 0.054973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx
+  artifactKey: Guid(fd2181bb73ea8824bb12c11a7d60e62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx using Guid(fd2181bb73ea8824bb12c11a7d60e62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddbd62a2be743a56476452df91a5578') in 0.072058 seconds 
+  Import took 0.077708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Barrels and Crates A.mat
+  artifactKey: Guid(ed3fc96f27e57944fbf4de4af7768992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Barrels and Crates A.mat using Guid(ed3fc96f27e57944fbf4de4af7768992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5240075ce6fa1fd9d4dd95ec222bf4') in 0.037702 seconds 
+  Import took 0.046169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrels and Crates A.fbx
+  artifactKey: Guid(e84b39314c9d8df4fa2c658dfe1cd24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrels and Crates A.fbx using Guid(e84b39314c9d8df4fa2c658dfe1cd24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c988846f74691461a57842fc6d81998') in 0.204077 seconds 
+  Import took 0.212878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel Stacks 1.fbx
+  artifactKey: Guid(35fe0ad320b23da45936c291932270d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel Stacks 1.fbx using Guid(35fe0ad320b23da45936c291932270d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c0621e4f3a5d750075c8faa1486b55') in 0.137725 seconds 
+  Import took 0.145786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Extension 1C.prefab
+  artifactKey: Guid(8d28143abbf63264d9b89ca131f37123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Extension 1C.prefab using Guid(8d28143abbf63264d9b89ca131f37123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06a42d1fa154324b88092c0048e22e8') in 0.079290 seconds 
+  Import took 0.087667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Advanced Housing 3.mat
+  artifactKey: Guid(dad243556e46cb24ab44ceae907d9675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Advanced Housing 3.mat using Guid(dad243556e46cb24ab44ceae907d9675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88080d6102b5a5f44160d844fcb8de37') in 0.100254 seconds 
+  Import took 0.108884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Arch test 2.fbx
+  artifactKey: Guid(5f6e165a1e370f44ba99a0e19feab530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Arch test 2.fbx using Guid(5f6e165a1e370f44ba99a0e19feab530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfb51f260d0a1b45eff55b106b113d5') in 0.072022 seconds 
+  Import took 0.082800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant 1B.prefab
+  artifactKey: Guid(a42c55d9764898e49af4c90817d7535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant 1B.prefab using Guid(a42c55d9764898e49af4c90817d7535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a07cd676e4a86ba83ec96910ad79653') in 0.072258 seconds 
+  Import took 0.079011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Environment Prefabs/Docks/Boardwalk Platform 1A2.prefab
+  artifactKey: Guid(1583eaaf494576c4ca787ba2e5be9040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Environment Prefabs/Docks/Boardwalk Platform 1A2.prefab using Guid(1583eaaf494576c4ca787ba2e5be9040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd640935ced70425047e5970482e13292') in 0.108718 seconds 
+  Import took 0.124392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves 1.mat
+  artifactKey: Guid(ffc6ec73fb923634287e7dd921c9292d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves 1.mat using Guid(ffc6ec73fb923634287e7dd921c9292d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743c8d93f85002842246bfe8d38311ae') in 0.042257 seconds 
+  Import took 0.048729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/7 Baking.asset
+  artifactKey: Guid(4b6681deff9238948be5e20192934b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/7 Baking.asset using Guid(4b6681deff9238948be5e20192934b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1aa5cf97fba969b80c8b587245a41d2') in 0.038767 seconds 
+  Import took 0.047234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall 1A.prefab
+  artifactKey: Guid(ef7c5c2eb63811643903f4f999b4dd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall 1A.prefab using Guid(ef7c5c2eb63811643903f4f999b4dd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15e3ab00b81cddae80fd1edf389499d') in 0.073739 seconds 
+  Import took 0.094655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Blacksmith's Anvil 2.fbx
+  artifactKey: Guid(009d0856e393c2c458c246ac9eba0a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Blacksmith's Anvil 2.fbx using Guid(009d0856e393c2c458c246ac9eba0a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63780a00b5900b6a15092012e1a66443') in 0.121470 seconds 
+  Import took 0.129973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Basic Rocks Groups 1.fbx
+  artifactKey: Guid(785be5b19f770da4391e0cebbbab5ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Basic Rocks Groups 1.fbx using Guid(785be5b19f770da4391e0cebbbab5ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8c195a6002b29d470b2f3a4c761dca') in 0.254380 seconds 
+  Import took 0.264387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Extension 1D.prefab
+  artifactKey: Guid(b5f7d139d8ef0174c97a9193410c1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Extension 1D.prefab using Guid(b5f7d139d8ef0174c97a9193410c1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a16ce22d4f51d44f2e91bcdfedeab5') in 0.116153 seconds 
+  Import took 0.123820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Bellows Stand 1.fbx
+  artifactKey: Guid(3fba1589720a4c2409afa21ffe504047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Bellows Stand 1.fbx using Guid(3fba1589720a4c2409afa21ffe504047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0dbe1e64835240d3301bd914b4e4d5') in 0.082384 seconds 
+  Import took 0.089901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1A (Fix 1).fbx
+  artifactKey: Guid(51601bb97a1ec8343bd25d7da5cc73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1A (Fix 1).fbx using Guid(51601bb97a1ec8343bd25d7da5cc73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31327d0df100cfb5a12691588002e608') in 0.116426 seconds 
+  Import took 0.122613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant 1A.prefab
+  artifactKey: Guid(e263b2dd3e358654fbb747a9b9177d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant 1A.prefab using Guid(e263b2dd3e358654fbb747a9b9177d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e94f0f4ce5fb9531385bb16b4ddfe0e') in 0.046164 seconds 
+  Import took 0.073214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/1 Very Low.asset
+  artifactKey: Guid(b10a3bd47ef3e9646adbcfa29c9ebb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/1 Very Low.asset using Guid(b10a3bd47ef3e9646adbcfa29c9ebb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1d1ca9bede7ef89d04ebc4fa5e2e15') in 0.013194 seconds 
+  Import took 0.018766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Demo Scenes/V 1.2/V 1.2 Display/1.2 display.asset
+  artifactKey: Guid(dd9e26add61b7f44a85cc9bac130ec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Demo Scenes/V 1.2/V 1.2 Display/1.2 display.asset using Guid(dd9e26add61b7f44a85cc9bac130ec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82d0aefdbfc4b05e1ba767d3d9bd560') in 0.183042 seconds 
+  Import took 0.188509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/3 Medium.asset
+  artifactKey: Guid(a836f7605a4cd2b46977d5caf63945fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/3 Medium.asset using Guid(a836f7605a4cd2b46977d5caf63945fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a1436b2be8d9248b435f88a7f77bdf') in 0.019738 seconds 
+  Import took 0.026039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1A.fbx
+  artifactKey: Guid(5ea4cd3b280d4ec44a3e438528c194e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1A.fbx using Guid(5ea4cd3b280d4ec44a3e438528c194e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779e97612be386c33badeda130d88573') in 0.109980 seconds 
+  Import took 0.116291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1B.fbx
+  artifactKey: Guid(54049ea7f51ca5943bbd2b431187b840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Advanced Housing 1B.fbx using Guid(54049ea7f51ca5943bbd2b431187b840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb04506a6d9e56b47012e1fbc8cf506a') in 0.065819 seconds 
+  Import took 0.070565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Boardwalk Platforms 1.fbx
+  artifactKey: Guid(30bf174d25452fd4c9816b98ae98f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Boardwalk Platforms 1.fbx using Guid(30bf174d25452fd4c9816b98ae98f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5271ba5203cc298e76c9469555e3cfd5') in 0.042021 seconds 
+  Import took 0.046983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barn Wood 1.fbx
+  artifactKey: Guid(531f2d919ba8bf345a80927d7a1367bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barn Wood 1.fbx using Guid(531f2d919ba8bf345a80927d7a1367bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e6bf057060937810d3dfbcf20b2abd') in 0.121670 seconds 
+  Import took 0.127377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A.fbx
+  artifactKey: Guid(fabb59147902d2845830b93dda9a3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A.fbx using Guid(fabb59147902d2845830b93dda9a3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b615bfde28777700eb9fe8e2e2a50d') in 0.037666 seconds 
+  Import took 0.041731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A Open.fbx
+  artifactKey: Guid(9aeca37fb0f7ad549b80ed39e5396a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A Open.fbx using Guid(9aeca37fb0f7ad549b80ed39e5396a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c527805160b3cb3cf5d71beeb4e41d2') in 0.053441 seconds 
+  Import took 0.057779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A Open2.fbx
+  artifactKey: Guid(e19a84821952f6546bbddae35395bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A Open2.fbx using Guid(e19a84821952f6546bbddae35395bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c27424f3fc8b029b4e8a5f63e9ee34c') in 0.102298 seconds 
+  Import took 0.107590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/2 Low.asset
+  artifactKey: Guid(9b1a0dc137fb16841b5c458d1556c627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/2 Low.asset using Guid(9b1a0dc137fb16841b5c458d1556c627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c324e0d0a16f2eae01d849ed9a1af164') in 0.009443 seconds 
+  Import took 0.012993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Castle Arch Walls 1B.fbx
+  artifactKey: Guid(939a92d79129bdc4f908e8ce8869e872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Castle Arch Walls 1B.fbx using Guid(939a92d79129bdc4f908e8ce8869e872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f039dd598c345ddeab1ef58ac6979f') in 0.068795 seconds 
+  Import took 0.074692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/5 Ultra.asset
+  artifactKey: Guid(8f28bec83c119f944831d65e9d05d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/5 Ultra.asset using Guid(8f28bec83c119f944831d65e9d05d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292a1de0b5143886c1b871bb05ce8520') in 0.006782 seconds 
+  Import took 0.010141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Environment Prefabs/Docks/Boardwalk Platform 1A.prefab
+  artifactKey: Guid(ad6961028b9c4b04a8e807020f50d380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Environment Prefabs/Docks/Boardwalk Platform 1A.prefab using Guid(ad6961028b9c4b04a8e807020f50d380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5489729bb07067cb339007d5776e9cc9') in 0.028553 seconds 
+  Import took 0.032438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Castle Arch Walls 1A.fbx
+  artifactKey: Guid(f037447f57f275743932d8c061d47cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Castle Arch Walls 1A.fbx using Guid(f037447f57f275743932d8c061d47cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630ae4775d4c20cea0d24b20e4cbbe60') in 0.217109 seconds 
+  Import took 0.222898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Bark 1.mat
+  artifactKey: Guid(90d25e50e74747345a6af14e5bd4f6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Bark 1.mat using Guid(90d25e50e74747345a6af14e5bd4f6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01de02aaece0dc5c7bb150f032b9c9b4') in 0.017570 seconds 
+  Import took 0.023299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Back Deck 1A.fbx
+  artifactKey: Guid(49c6c62f2f0570148b9db136d7c8d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Back Deck 1A.fbx using Guid(49c6c62f2f0570148b9db136d7c8d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8960ee821647e19fcea97805022ed658') in 0.163868 seconds 
+  Import took 0.169348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Gatehouses, Bridges, Walls/Wide/Archway 1.prefab
+  artifactKey: Guid(a6e43afee4bbb144b92baa23b00aee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Gatehouses, Bridges, Walls/Wide/Archway 1.prefab using Guid(a6e43afee4bbb144b92baa23b00aee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e379908b4481804fbcb1d5cd466b4a0') in 0.054437 seconds 
+  Import took 0.061877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant 1B Wide.prefab
+  artifactKey: Guid(8b2b9caecbaafc447a9726d068523b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Slant 1B Wide.prefab using Guid(8b2b9caecbaafc447a9726d068523b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e08026b5fd537ec59645e656994c9e0') in 0.044442 seconds 
+  Import took 0.049835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/4 High.asset
+  artifactKey: Guid(42e176a2e271b5b47a8b86082069cac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/4 High.asset using Guid(42e176a2e271b5b47a8b86082069cac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae6ac55c6d372748a1fb01abbda0df4') in 0.006544 seconds 
+  Import took 0.010531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4BC Flat.fbx
+  artifactKey: Guid(f30078b1b7071f74eb6034e16791984a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4BC Flat.fbx using Guid(f30078b1b7071f74eb6034e16791984a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fd1af4dd112bf11d1566a3e26e1b92') in 0.097440 seconds 
+  Import took 0.104445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Arch test 1.fbx
+  artifactKey: Guid(6f4bbfca7dee93c47bcecbfa38436f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Arch test 1.fbx using Guid(6f4bbfca7dee93c47bcecbfa38436f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3532ef53c30581aeebd5e4f05a05643') in 0.019521 seconds 
+  Import took 0.023475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Extension 1A.prefab
+  artifactKey: Guid(6e234c5f41a6b5b4a9a2190c163f9a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall Extension 1A.prefab using Guid(6e234c5f41a6b5b4a9a2190c163f9a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096963cfb748c31e397a84f2e74d09d3') in 0.047382 seconds 
+  Import took 0.051422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/10 VR_High.asset
+  artifactKey: Guid(5645e9ade0cb43a4d90fd7bcadb4da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Clouds Quality/10 VR_High.asset using Guid(5645e9ade0cb43a4d90fd7bcadb4da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73648c80743e121713abc740e8bc47f6') in 0.006829 seconds 
+  Import took 0.010141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Basic Floor 2 1.fbx
+  artifactKey: Guid(25e219388899b8d40b172024d13fc26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Basic Floor 2 1.fbx using Guid(25e219388899b8d40b172024d13fc26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91603fd2644e34fc7ea379d1827dd272') in 0.066764 seconds 
+  Import took 0.070890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab
+  artifactKey: Guid(d0fef57aa8c0772448a3a57390d3c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab using Guid(d0fef57aa8c0772448a3a57390d3c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acf779067529614a993094c34516be5') in 0.023932 seconds 
+  Import took 0.028449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Stone Detail/Arched Circle Module 1.prefab
+  artifactKey: Guid(4335544aed260e4419f07f436872b162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Stone Detail/Arched Circle Module 1.prefab using Guid(4335544aed260e4419f07f436872b162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5be2eb0bfa9cf33a00730139784559') in 0.077208 seconds 
+  Import took 0.082518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall 1B.prefab
+  artifactKey: Guid(3990e837bb3192e489b9dd478b196689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Castles/Ruins/Wall Pieces/Arch Wall 1B.prefab using Guid(3990e837bb3192e489b9dd478b196689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1b9dca6529f12d99fe7f8e66febe47') in 0.041771 seconds 
+  Import took 0.046240 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.595 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.3 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 3.372500 ms (FindLiveObjects: 0.307600 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.410500 ms  DeleteObjects: 0.564800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198.952590 seconds.
+  path: Assets/Scripts/HUDManager.cs
+  artifactKey: Guid(a19bd3c1f612a8448815ce34771ed6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUDManager.cs using Guid(a19bd3c1f612a8448815ce34771ed6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2101bf7841b60fe3677d69f88a43024') in 0.007813 seconds 
+  Import took 0.017616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Scripts/HUDManager.cs
+  artifactKey: Guid(a19bd3c1f612a8448815ce34771ed6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUDManager.cs using Guid(a19bd3c1f612a8448815ce34771ed6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2101bf7841b60fe3677d69f88a43024') in 0.002780 seconds 
+  Import took 0.006790 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 2.723500 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.098500 ms MarkObjects: 1.654800 ms  DeleteObjects: 0.660300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 3.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2358.
+Total: 6.270200 ms (FindLiveObjects: 0.229400 ms CreateObjectMapping: 0.077400 ms MarkObjects: 5.184700 ms  DeleteObjects: 0.776900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.687 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2361.
+Total: 2.397100 ms (FindLiveObjects: 0.167200 ms CreateObjectMapping: 0.054200 ms MarkObjects: 1.666900 ms  DeleteObjects: 0.507200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 557.156269 seconds.
+  path: Assets/Scripts/SceneLoader.cs
+  artifactKey: Guid(7da9350dd692559468b131616c7a5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoader.cs using Guid(7da9350dd692559468b131616c7a5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8632d9ad6b0e21eb72cc4e78f8661a') in 0.008946 seconds 
+  Import took 0.017952 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.070 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2364.
+Total: 178.443800 ms (FindLiveObjects: 1.715000 ms CreateObjectMapping: 0.643400 ms MarkObjects: 174.638400 ms  DeleteObjects: 0.846400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.942981 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8998aa06308fcbb1556f2045fe645f61') in 0.510485 seconds 
+  Import took 0.516358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156983 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8998aa06308fcbb1556f2045fe645f61') in 0.004775 seconds 
+  Import took 0.011978 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.035 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2367.
+Total: 3.917000 ms (FindLiveObjects: 0.387000 ms CreateObjectMapping: 0.141800 ms MarkObjects: 2.743500 ms  DeleteObjects: 0.641900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 448.253741 seconds.
+  path: Assets/Scripts/camera.cs
+  artifactKey: Guid(8d21bafa735dd5a4daa55b9816ff99d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/camera.cs using Guid(8d21bafa735dd5a4daa55b9816ff99d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1608da81d8da82e5bc04194bbb3c7946') in 0.014474 seconds 
+  Import took 0.020499 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.316 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2370.
+Total: 13.076700 ms (FindLiveObjects: 7.306500 ms CreateObjectMapping: 0.237700 ms MarkObjects: 4.383000 ms  DeleteObjects: 1.146500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare

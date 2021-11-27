@@ -11,6 +11,7 @@ public class HUDManager : MonoBehaviour
 
     [SerializeField] GameObject pauseMenu;
     private bool GameIsPaused = false;
+    public Player playerInstance;
 
     private float energy = 200;
     private float maxEnergy = 200;
@@ -106,7 +107,7 @@ public class HUDManager : MonoBehaviour
         }
     }
 
-    void Resume()
+    public void Resume()
     {
         pauseMenu.SetActive(false);
         GameIsPaused = false;
@@ -120,5 +121,10 @@ public class HUDManager : MonoBehaviour
         GameIsPaused = true;
         Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.Confined;
+    }
+
+    public void SaveGame()
+    {
+        SaveSystem.SavePlayer(playerInstance);
     }
 }
