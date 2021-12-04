@@ -15,6 +15,12 @@ public class HUDManager : MonoBehaviour
 
     private float energy = 200;
     private float maxEnergy = 200;
+    private float Health;
+    private float maxHealth = 100f;
+    public Image currentHealth;
+    [SerializeField] GameObject GameOverMenu;
+    [SerializeField] GameObject information;
+    string info;
     private float kecepatan;
     private float kecepatanLari;
     private float input_x;
@@ -32,10 +38,13 @@ public class HUDManager : MonoBehaviour
         kecepatan = player.GetComponent<movement_player>().speed;
         input_x = player.GetComponent<movement_player>().x;
         input_z = player.GetComponent<movement_player>().z;
+        Health = player.GetComponent<HealthSystem>().health_player;
         EnergyDrain();
         UpdateEnergy();
+        UpdateHealth();
         UpdateTime();
         ShowPauseMenu();
+        gameOver();
     }
 
     private void EnergyDrain()
@@ -54,7 +63,7 @@ public class HUDManager : MonoBehaviour
         {
             if (energy < maxEnergy)
             {
-                energy += 15 * Time.deltaTime;
+                energy += 5 * Time.deltaTime;
             }
         }
     }
@@ -63,6 +72,12 @@ public class HUDManager : MonoBehaviour
     {
         float ratio = energy / maxEnergy;
         currentEnergy.rectTransform.localScale = new Vector3(ratio, 1, 1);
+    }
+
+    private void UpdateHealth()
+    {
+        float ratio = Health / maxHealth;
+        currentHealth.rectTransform.localScale = new Vector3(ratio, 1, 1);
     }
 
     private void UpdateTime()
@@ -126,5 +141,17 @@ public class HUDManager : MonoBehaviour
     public void SaveGame()
     {
         SaveSystem.SavePlayer(playerInstance);
+    }
+
+    public void gameOver()
+    {
+        if (Health < 1)
+        {
+            GameOverMenu.SetActive(true);
+            GameIsPaused = true;
+            Time.timeScale = 0f;
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+        }
     }
 }
